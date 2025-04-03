@@ -18,7 +18,7 @@ jobs: #job là hành động được thực hiện trong sự kiện
         uses: actions/checkout@v3 # tác dụng của action: Clone toàn bộ mã nguồn của repo
 
       - name: Set up JDK
-        uses: _actions/setup-java@3 # tác dụng của action: Cài đặt JDK
+        uses: actions/setup-java@3 # tác dụng của action: Cài đặt JDK
         with:
           distribution: 'temurin' # đây là nhà cung cấp JDK
           java-version: '22' # phiên bản JDK
